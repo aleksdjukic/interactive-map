@@ -1,0 +1,145 @@
+{
+    "header": {
+        "title": "Interactive map of corruption processing in Bosnia and Herzegovina",
+        "subtitle": "How to use a map?",
+        "description": "Hovering the mouse over the regions on the map in the upper right corner will show you summary information for the prosecutor's office. Click on the desired field on the map. A new window will open an overview of the activities of the selected prosecutor's office. or you can get BiH by clicking on the menu in the lower left corner. "
+    },
+    "language": {
+        "current": "EN"
+    },
+    "menu": {
+        "1": "About Map",
+        "2": "External link"
+    },
+    "hoverData": {
+        "1": "Year",
+        "2": "Total in progress (Application)",
+        "3": "Total in progress (Investigation)",
+        "4": "Indictments Confirmed",
+        "5": "Total convictions",
+        "6": "Total convicts (non-convicts)"
+    },
+    "filter": {
+        "1": "Total Prosecutor's Offices in BiH",
+        "2": "Prosecutor's Office of BiH",
+        "3": "FBIH Prosecutorial System",
+        "4": "RS Prosecutorial System",
+        "5": "Special Department - OJT Banja Luka",
+        "6": "Special Department - Republic Prosecutor's Office of RS"
+    },
+    "prijave": {
+        "0": "Applications",
+        "1": "Unresolved applications on 01.01.",
+        "2": "Applications received",
+        "3": "Total in progress",
+        "4": "Total resolved",
+        "5": "Orders not to initiate an investigation",
+        "6": "Unresolved applications on 31.12."
+    },
+    "istrage": {
+        "0": "Investigations",
+        "1": "Unresolved applications on 01.01.",
+        "2": "Applications received",
+        "3": "Total in progress",
+        "4": "Total resolved",
+        "5": "Orders not to initiate an investigation",
+        "6": "Unresolved applications on 31.12."
+    },
+    "optuznice": {
+        "0": "Discharges",
+        "1": "Indictments",
+        "2": "Indictments Confirmed"
+    },
+    "sudske_odluke": {
+        "0": "Court decisions",
+        "1": "Final court decisions",
+        "2": "Invalid court decisions",
+        "3": "Rejection judgments",
+        "4": "Acquittals",
+        "5": "Total convictions",
+        "6": "Imprisonment",
+        "7": "Probation",
+        "8": "Fine"
+    },
+    "chart": {
+        "1": "Trend Resolving Applications for 2021",
+        "2": "Court decisions in 2021"
+    },
+    "buttons": {
+        "export" : "Export Report <img class=\" export_icon\"src=\"/images/export.svg\" alt=\" Export Report \">",
+        "compare" : "Compare Prosecution <img class=\"compare_icon\" src=\"/images/compare.svg\" alt=\"Compare Prosecution \"> "
+    },
+    "legend": {
+        "1": "Data on Corruption Prosecution",
+        "2": "High corruption cases"
+    },
+    "share": {
+        "1": "Save PDF",
+        "2": "Copy link",
+        "3": "Copy embed code",
+        "4": "Scan QR code",
+        "5": "Export Report",
+        "6": "Scan QR"
+    },
+    "ppk": {
+        "naziv_krivicnog_djela" : "The name of the crimea",
+        "neformalni_naziv_predmeta" : "Defendant / Informal case name",
+        "broj_optuzenih_u_predmetu" : "Number of defendants in the case",
+        "sud_pred_kojim_se_vodi_postupak" : "Court before which the proceedings are conducted",
+        "tuzilastvo" : "The prosecution that represented the indictment",
+        "vrijeme_izvrsenja_djela" : "Time of commission of the act",
+        "datum_podnosenja_krivicne_prijave" : "Date of filing the criminal report / Date of formation of the file in the prosecutor's office",
+        "datum_donosenja_naredbe_o_sprovodjenju_istrage" :  "Date of issuing the order to conduct the investigation",
+        "preduzimanje_posebnih_istraznih_radnji" :  "Undertaking special investigative actions",
+        "datum_podizanja_optuznice" :  "Date of indictment",
+        "datum_potvrdjivanja_optuznice" :  "Date of confirmation of the indictment",
+        "datum_donosenja_prvostepene_presude" :  "Date of first instance verdict",
+        "optuzeni" :  "Defendant / Informal case name",
+        "postupajuci_sud" :  "Acting court",
+        "postupajuce_tuzilastvo" :  "Acting prosecution",
+        "naziv_krivicnog_djela_izrecenim" :  "The name of the crime",
+        "zaprijecena_sankcija_za_predmetno_krivicno_djelo_shodno_kz" :  "Threatened sanction for the criminal offense in question in accordance with the criminal law",
+        "vrsta_i_visina_izrecene_sankcije_da_li_je_sankcija_ublazena_izm" :  "Type and amount of sanction imposed / whether the sanction was reduced below the legal minimum",
+        "da_li_je_presudom_izrecena_sigurnosna_mjera_zabrane_vrsenja_paif" :  "Whether the judgment imposed a security measure prohibiting calls, activities or functions",
+        "da_li_je_izrecena_mjera_oduzimanje_imovinske_koristi_pkd" :  "Whether the measure imposed is confiscation of proceeds of crime",
+        "da_li_je_tuzilastvo_izjavilo_zalbu_na_prvostepenu_presudu" : "Has the prosecution appealed the first instance verdict / is the verdict final?",
+        "more": "More details",
+        "less": "Less details"
+    },
+    "hover_chart": {
+        "Uupno u radu ( Prijava )": "Overall (Application)",
+        "Ukupno u radu ( Istraga )": "Total in progress (Investigation)",
+        "Potvrđene optužnice": "Confirmed Indictments",
+        "Ukupno osuđujućih presuda ( Pravosnažnih )": "Total convictions (final)",
+        "Ukupno osuđujućih presuda ( Nepravosnažnih )": "Total convictions (Non-final)"
+    },
+    "compare": {
+        "0": "Comparison of data on corruption prosecution",
+        "1": "",
+        "2" : "Please choose",
+        "3" : ""
+    },
+    "compare_chart": {
+        "Ukupno u radu ( Prijava )" : "Overall (Application)",
+        "Ukupno u radu ( Istraga )" : "Total in progress (Investigation)",
+        "Podignute optužnice" : "Indictments",
+        "Potvrđene optužnice" : "Confirmed Indictments",
+        "Ukupno osuđujućih presuda": "Total convictions",
+        "Zatvorska kazna": "Imprisonment",
+        "Uslovna osuda": "Conditional sentence",
+        "Novčana kazna": "Fine",
+
+        "Ukupno u radu ( Prijava ) 2": "Overall (Application)",
+        "Ukupno u radu ( Istraga ) 2": "Total in progress (Investigation)",
+        "Podignute optužnice 2": "Indictments",
+        "Potvrđene optužnice 2": "Confirmed Indictments",
+        "Ukupno osuđujućih presuda 2": "Total Convictions",
+        "Zatvorska kazna 2": "Imprisonment",
+        "Uslovna osuda 2": "Conditional sentence",
+        "Novčana kazna 2": "Fine"
+    },
+    "tabs": {
+        "1": "Data",
+        "2": "Follow-up procedures"
+    }
+}

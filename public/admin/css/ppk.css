@@ -1,0 +1,29 @@
+.wizard > .steps > ul > li
+{
+    width: 50%;
+}
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #343a40;
+}
+.wizard-big.wizard > .content {
+    min-height: 580px;
+}
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #4689c7;
+}
+.bg-1{
+    background-color: #77ACCA;
+}
+.bg-2{
+    background-color: #90b3d3;
+}
+.bg-3{
+    background-color: #77CA89;
+}
+.bg-4{
+    background-color: #B2DF8A;
+}
+.bg-5{
+    background-color: #6469CE;
+}
+

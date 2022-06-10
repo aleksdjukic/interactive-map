@@ -1,0 +1,150 @@
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+    #popupCompare {
+        width: 97%;
+        max-width: 98%;
+    }
+    #popupCompare.show {
+        top: 156px;
+        height: calc(100vh - 170px);
+    }
+
+}
+
+@media (min-width: 1400px) {
+}
+
+
+@media (max-width: 950px) {
+    #popup,
+    #popupCompare {
+        width: 100%;
+        height: calc(100vh - 70px);
+        top: 100px;
+        left: 0;
+        right: 0;
+        transition: top .5s ease-in-out; /*make it smooth*/
+
+        min-width: auto;
+        margin-bottom: 80px;
+
+
+        &.show {
+            top: 70px;
+        }
+
+        #podaci_content {
+            overflow-x: hidden;
+        }
+    }
+    #hoverDataContainer {
+        display: none!important;
+    }
+    main {
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+    .noscroll {
+        position: fixed!important
+    }
+    #close-popup,
+    #close-popupCompare {
+        right: 33px;
+        top: -55px;
+        width: 58px;
+        height: 58px;
+
+        img {
+            width: 20px;
+            top: 13px;
+            position: relative;
+        }
+    }
+}
+@media (max-width: 575px) {
+    #tuzilastva {
+        margin-top: 0;
+    }
+    #close-popup {
+        right: 5px;
+        top: 11px;
+    }
+
+
+    #mainMenu .dropdown-toggle {
+        position: relative;
+        top: -4px;
+        width: 48px;
+        height: 48px;
+
+        img {
+            width: 22px;
+            position: relative;
+            top: -2px;
+        }
+    }
+    #close-popup,
+    #close-popupCompare {
+        right: 17px;
+        top: -59px;
+        width: 48px;
+        height: 48px;
+
+        img {
+            width: 20px;
+            top: 8px;
+            position: relative;
+        }
+    }
+
+    #export_btn,
+    #compare_btn {
+        width: calc(50% - 5px);
+        margin: 0;
+        margin-right: 5px!important;
+        font-size: 12px;
+    }
+    #compare_btn {
+        margin-right: 0!important;
+    }
+    .custom_chart_holder .col-8.px-2.px-2 {
+        line-height: 1.2;
+        /* margin-bottom: 7px; */
+        font-size: .72rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #shareModal {
+        .border-start {
+            border: 0!important;
+        }
+
+        #qr_caavs {
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+    }
+    main {
+        h1 {
+            min-height: 98px;
+        }
+        .main-subtitle-2 {
+            min-height: 120px;
+        }
+    }
+}

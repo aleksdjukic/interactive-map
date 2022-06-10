@@ -1,0 +1,145 @@
+{
+    "header": {
+        "title": "Interaktivna mapa procesuiranja korupcije u Bosni i Hercegovini",
+        "subtitle": "Kako koristiti mapu?",
+        "description": "Prelaskom kursora miša preko regija na mapi u gornjem desnom uglu će vam se pokazati sažete informacije za dato tužilaštvo. Kliknite na željeno polje na mapi. U novom prozoru će se otvoriti pregled aktivnosti izabranog tužilaštva. Zbirne rezultate tužilaštava FBiH, RS ili BiH dobićete klikom na meni u donjem lijevom uglu."
+    },
+    "language": {
+        "current" : "BS"
+    },
+    "menu": {
+        "1" : "O mapi",
+        "2" : "Externi link"
+    },
+    "hoverData": {
+        "1" : "Godina",
+        "2" : "Ukupno u radu (Prijava)",
+        "3" : "Ukupno u radu (Istraga)",
+        "4" : "Potvrđene optužnice",
+        "5" : "Ukupno osuđujućih presuda",
+        "6" : "Ukupno osuđujućih (nepravosnažnih)"
+    },
+    "filter": {
+        "1" : "Ukupno tužilaštva u BIH",
+        "2" : "Tužilaštvo BIH",
+        "3" : "Tužilački sistem FBIH",
+        "4" : "Tužilački sistem RS",
+        "5" : "Posebno odjeljenje - OJT Banja Luka",
+        "6" : "Posebno odjeljenje - Republičko tužilaštvo RS"
+    },
+    "prijave": {
+        "0" : "Prijave",
+        "1" : "Neriješene prijave na dan 01.01.",
+        "2" : "Zaprimljene prijave",
+        "3" : "Ukupno u radu",
+        "4" : "Ukupno riješeno",
+        "5" : "Naredbe o nepokretanju istrage",
+        "6" : "Neriješene prijave na dan 31.12."
+    },
+    "istrage": {
+        "0" : "Istrage",
+        "1" : "Neriješene istrage na dan 01.01.",
+        "2" : "Naređene istrage",
+        "3" : "Ukupno u radu",
+        "4" : "Ukupno riješeno",
+        "5" : "Naredbe o obustavi istrage",
+        "6" : "Neriješene istrage na dan 31.12."
+    },
+    "optuznice": {
+        "0" : "Otpužnice",
+        "1" : "Podignute optužnice",
+        "2" : "Potvrđene optužnice"
+    },
+    "sudske_odluke": {
+        "0" : "Sudske odluke",
+        "1" : "Pravnosnažne sudske odluke",
+        "2" : "Nepravosnažne sudske odluke",
+        "3" : "Odbijajuće presude",
+        "4" : "Oslobađajuće presude",
+        "5" : "Ukupno osuđujućih presuda",
+        "6" : "Zatvorska kazna",
+        "7" : "Uslovna osuda",
+        "8" : "Novčana kazna"
+    },
+    "chart": {
+        "1" : "Trend Riješavanje Prijava za 2021. godinu",
+        "2" : "Sudske odluke u 2021. godini"
+    },
+    "buttons": {
+        "export" : "Izvezi Izvještaj  <img class=\"export_icon\" src=\"/images/export.svg\" alt=\"Izvezi Izvještaj\">",
+        "compare" : "Uporedi Tužilaštvo  <img class=\"compare_icon\" src=\"/images/compare.svg\" alt=\"Uporedi Tužilaštvo\">"
+    },
+    "legend": {
+        "1" : "Podaci o procesuiranju korupcije",
+        "2" : "Predmeti visoke korupcije"
+    },
+    "share" : {
+        "1" : "Sačuvaj PDF",
+        "2" : "Kopiraj link",
+        "3" : "Kopiraj embed kod",
+        "4" : "Skeniraj QR code",
+        "5": "Izvezi izvještaj",
+        "6": "Preuzmi na mobilnom"
+    },
+    "ppk" : {
+        "naziv_krivicnog_djela" : "Naziv krivičnog djela",
+        "neformalni_naziv_predmeta" : "Optuženi / Neformalni naziv predmeta",
+        "broj_optuzenih_u_predmetu" : "Broj optuzenih u predmetu",
+        "sud_pred_kojim_se_vodi_postupak" : "Sud pred kojim se vodi postupak",
+        "tuzilastvo" : "Tužilaštvo koje je zastupalo optužnicu",
+        "vrijeme_izvrsenja_djela" : "Vrijeme izvršenja djela",
+        "datum_podnosenja_krivicne_prijave" : "Datum podnošenja krivične prijave / Datum formiranja spisa u tužilaštvu",
+        "datum_donosenja_naredbe_o_sprovodjenju_istrage" :  "Datum donošenja naredbe o sprovođenju istrage",
+        "preduzimanje_posebnih_istraznih_radnji" :  "Preduzimanje posebnih istražnih radnji",
+        "datum_podizanja_optuznice" :  "Datum podizanja optužnice",
+        "datum_potvrdjivanja_optuznice" :  "Datum potvrđivanja optužnice",
+        "datum_donosenja_prvostepene_presude" :  "Datum donošenja prvostepene presude",
+        "optuzeni" :  "Optuženi / Neformalni naziv predmeta",
+        "postupajuci_sud" :  "Postupajući sud",
+        "postupajuce_tuzilastvo" :  "Postupajuće tužilaštvo",
+        "naziv_krivicnog_djela_izrecenim" :  "Naziv krivičnog djela",
+        "zaprijecena_sankcija_za_predmetno_krivicno_djelo_shodno_kz" :  "Zaprijećena sankcija za predmetno krivično djelo shodno krivičnom zakonu",
+        "vrsta_i_visina_izrecene_sankcije_da_li_je_sankcija_ublazena_izm" :  "Vrsta i visina izrečene sankcije/ da li je sankcija ublažena ispod zakonskog minimuma",
+        "da_li_je_presudom_izrecena_sigurnosna_mjera_zabrane_vrsenja_paif" :  "Da li je presudom izrečena sigurnosna mjera zabrane vršenja poziva, aktivnosti ili funkcija",
+        "da_li_je_izrecena_mjera_oduzimanje_imovinske_koristi_pkd" :  "Da li je izrečena mjera oduzimanje imovinske koristi pribavljene krivičnim djelom",
+        "da_li_je_tuzilastvo_izjavilo_zalbu_na_prvostepenu_presudu" : "Da li je tužilaštvo izjavilo žalbu na prvostepenu presudu / da li je presuda pravosnažna",
+        "more" : "Više detalja",
+        "less" : "Manje detalja"
+    },
+    "hover_chart" : {
+        "Ukupno u radu ( Prijava )" : "Ukupno u radu ( Prijava )",
+        "Ukupno u radu ( Istraga )" : "Ukupno u radu ( Istraga )",
+        "Potvrđene optužnice" : "Potvrđene optužnice",
+        "Ukupno osuđujućih presuda ( Pravosnažnih )" : "Ukupno osuđujućih presuda ( Pravosnažnih )",
+        "Ukupno osuđujućih presuda ( Nepravosnažnih )" : "Ukupno osuđujućih presuda ( Nepravosnažnih )"
+    },
+    "compare" : {
+        "0" : "Poređenje podataka o procesuiranju korupcije",
+        "1" : "godina",
+        "2" : "Molimo izaberite",
+        "3" : ""
+    },
+    "compare_chart" : {
+        "Ukupno u radu ( Prijava )" : "Ukupno u radu ( Prijava )",
+        "Ukupno u radu ( Istraga )" : "Ukupno u radu ( Istraga )",
+        "Podignute optužnice" : "Podignute optužnice",
+        "Potvrđene optužnice" : "Potvrđene optužnice",
+        "Ukupno osuđujućih presuda" : "Ukupno osuđujućih presuda",
+        "Zatvorska kazna" : "Zatvorska kazna",
+        "Uslovna osuda" : "Uslovna osuda",
+        "Novčana kazna" : "Novčana kazna",
+
+        "Ukupno u radu ( Prijava ) 2" : "Ukupno u radu ( Prijava )",
+        "Ukupno u radu ( Istraga ) 2" : "Ukupno u radu ( Istraga )",
+        "Podignute optužnice 2" : "Podignute optužnice",
+        "Potvrđene optužnice 2" : "Potvrđene optužnice",
+        "Ukupno osuđujućih presuda 2" : "Ukupno osuđujućih presuda",
+        "Zatvorska kazna 2" : "Zatvorska kazna",
+        "Uslovna osuda 2" : "Uslovna osuda",
+        "Novčana kazna 2" : "Novčana kazna"
+    },
+    "tabs" : {
+        "1" : "Podaci",
+        "2" : "Praćeni postupci"
+    }
+}

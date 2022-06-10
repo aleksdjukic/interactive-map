@@ -1,0 +1,207 @@
+.wizard > .steps > ul > li {
+    width: 50%;
+}
+
+.wizard > .content > .body {
+    width: 100%;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #343a40;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background: #4689c7 !important;
+    color: #fff;
+}
+
+.wizard > .content > .body label.error {
+    color: #ff8f33 !important;
+}
+
+.wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
+    background: none !important;
+}
+
+.bg-4 {
+    background-color: #77ACCA;
+}
+
+.bg-3 {
+    background-color: #90b3d3;
+}
+
+.bg-2 {
+    background-color: #77CA89;
+}
+
+.bg-1 {
+    background-color: #B2DF8A;
+}
+
+.bg-5 {
+    background-color: #6469CE;
+}
+
+#exampleModal .modal-body {
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.dark-mode .btn-danger {
+    background-color: #ff8f33;
+    border-color: #ff8f33;
+}
+
+.dark-mode .btn-danger:hover {
+    color: #fff;
+    background-color: #ff8f33;
+    border-color: #ff8f33;
+}
+
+.dark-mode .btn-dark {
+    background-color: #4689c7;
+    border-color: #4689c7;
+}
+
+.dark-mode .btn-dark:hover {
+    color: #fff;
+    background-color: #4689c7;
+    border-color: #4689c7;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #4f895c;
+}
+
+.dark-mode a:not(.btn):hover {
+    color: #6592ac;
+}
+
+.wizard-big.wizard > .content {
+    overflow: auto;
+}
+
+.dark-mode .page-item.active .page-link {
+    background-color: #4689c7;
+    border-color: #4689c7;
+    color: #fff;
+}
+
+.dark-mode .page-item .page-link {
+    color: #cdd4db;
+}
+
+.dark-mode .btn-danger:not(:disabled):not(.disabled).active, .dark-mode .btn-danger:not(:disabled):not(.disabled):active, .show > .dark-mode .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #ff8f33;
+    border-color: #ff8f33;
+}
+
+.dark-mode .btn-dark:not(:disabled):not(.disabled).active, .dark-mode .btn-dark:not(:disabled):not(.disabled):active, .show > .dark-mode .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #4689c7;
+    border-color: #4689c7;
+}
+
+.dark-mode .btn-danger.focus, .dark-mode .btn-danger:focus {
+    color: #fff;
+    background-color: #ff8f33;
+    border-color: #ff8f33;
+    box-shadow: 0 0 0 0 rgb(235 103 89 / 50%);
+}
+
+.dark-mode .dark.focus, .dark-mode .btn-dark:focus {
+    color: #fff;
+    background-color: #4689c7;
+    border-color: #4689c7;
+    box-shadow: 0 0 0 0 rgb(235 103 89 / 50%);
+}
+
+.wizard > .content {
+    background-color: #454d55 !important;
+    color: #fff;
+}
+
+.wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
+    /*background: #eee!important;*/
+    color: #454d55 !important;
+    cursor: default;
+}
+
+.dark-mode .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .dark-mode .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #4689c7;
+    color: #fff;
+}
+
+[class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active, [class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active:hover {
+    background-color: #a6cee3;
+    color: #343a40;
+}
+
+.main-sidebar .brand-link {
+    text-align: center !important;
+}
+
+.main-sidebar .brand-link img {
+    opacity: .8 !important;
+    width: 150px !important;
+    height: 150px !important;
+    max-height: 150px !important;
+    display: block !important;
+    float: none !important;
+    margin: 30px auto 30px auto !important;
+}
+
+.main-sidebar .brand-text {
+    margin-bottom: 9px;
+    display: block;
+}
+
+iframe {
+    transform: inherit;
+    filter: invert(92%) hue-rotate(189deg);
+}
+
+.login-page {
+    background-image: url('../images/mapa-login.png');
+    background-position: center;
+}
+
+.login-logo {
+    display: none;
+}
+
+/*.preloader{*/
+/* */
+/*}*/
+.preloader {
+    align-items: center;
+    /*background-color: #fff !important;*/
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    #example1 {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 100% !important;
+    }
+    .pagination{
+        overflow: hidden;
+    }
+}
